@@ -1,1 +1,1 @@
-This is a collaboration to build a `[_brand.yml](https://quarto.org/docs/authoring/brand.html)` for [NHS Scotland identidy guidance](https://www.nhsscotlandci.scot.nhs.uk/identity-guidelines/)
+This is a collaboration to build a [brand.yml](https://quarto.org/docs/authoring/brand.html) based on the [NHS-R version for NHS England](https://posit-dev.github.io/brand-yml/inspiration/brand-guidelines/nhsr-community/), but using the different [NHS Scotland identity guidance](https://www.nhsscotlandci.scot.nhs.uk/identity-guidelines/)
