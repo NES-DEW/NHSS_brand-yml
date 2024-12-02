@@ -1,0 +1,39 @@
+---
+title: "NHSS_brand-yml"
+format: 
+  html: 
+    output-file: NHSS_html.html
+    embed-resources: true
+  typst: 
+    output-file: NHSS_typst.pdf
+    papersize: a4
+  dashboard: 
+    output-file: NHSS_dashboard.html
+    embed-resources: true
+  revealjs:
+    output-file: NHSS_revealjs.html
+    embed-resources: true
+brand: _brand.yml
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
