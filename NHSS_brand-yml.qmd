@@ -1,13 +1,13 @@
 ---
 title: "NHSS_brand-yml"
 format: 
-  html: 
-    output-file: NHSS_html.html
-    embed-resources: true
-  typst: 
+  typst:
     output-file: NHSS_typst.pdf
     papersize: a4
-  dashboard: 
+  html:
+    output-file: NHSS_html.html
+    embed-resources: true
+  dashboard:
     output-file: NHSS_dashboard.html
     embed-resources: true
   revealjs:

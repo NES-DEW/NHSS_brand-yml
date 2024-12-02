@@ -5,10 +5,17 @@ color:
   background: blue
   foreground: dark-grey
   primary: black
-  
-logo: 
-  large: src/NHS_SC_cmyk.png
 
+logo:
+  # Download the NHS Scotland logo 
+  images:
+    nhss-logo:
+      path: src/NHS_SC_cmyk.png
+      alt: NHS Scotland logo
+  small: nhss-logo
+  medium: nhss-logo
+  large: nhss-logo
+  
 typography:
   fonts:
     - family: Jura
