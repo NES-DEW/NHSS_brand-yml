@@ -2,9 +2,30 @@ color:
   palette:
     dark-grey: "#222222"
     blue: "#ddeaf1"
-  background: blue
-  foreground: dark-grey
-  primary: black
+    nhssyellow: "#FFEC00"
+    nhssorange: "#EE9C00"
+    nhssred: "#FF0000"
+    nhssdarkred: "#A1002F"
+    nhsspink: "#B80068"
+    nhsspurple: "#6B007B"
+    nhssdarkblue: "#092869"
+    nhsslightblue: "#00E8FF"
+    nhsslightgreen: "#0391BF"
+    nhssgreen: "#00A15F"
+    nhssdarkgreen: "#00684D"
+    white: '#FFFFFF'
+    black: '#231F20'
+  foreground: black
+  background: white
+  primary: nhssdarkblue
+  secondary: dark-grey
+  tertiary: nhsslightblue
+  success: nhssgreen
+  danger: nhssred
+  warning: nhssyellow
+  info: nhsslightblue
+  light: nhsspink # definitely wonky
+  dark: dark-grey
 
 logo:
   # Download the NHS Scotland logo 
@@ -12,13 +33,24 @@ logo:
     nhss-logo:
       path: src/NHS_SC_cmyk.png
       alt: NHS Scotland logo
-  small: nhss-logo
+    nhss-logo-white:
+      path: src/NHS_SC_neg.png
+      alt: NHS Scotland logo
+  small: nhss-logo-white
   medium: nhss-logo
   large: nhss-logo
-  
+
 typography:
   fonts:
-    - family: Jura
-      source: google
-  base: Jura
-  headings: Jura
+    - family: Arial
+      source: system
+
+  base:
+    family: Arial, sans-serif
+    line-height: 1.5
+
+  headings:
+    family: Arial, sans-serif
+    weight: 700
+    line-height: 1.25
+    color: nhssdarkblue
